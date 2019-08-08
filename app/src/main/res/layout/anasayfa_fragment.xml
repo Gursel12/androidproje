@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anasayfafragment">
+
+
+
+
+
+        <ProgressBar
+            android:id="@+id/login_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:visibility="gone" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_height="wrap_content">
+                    <Button
+
+                        android:id="@+id/btndoktor"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+
+                        android:background="@drawable/butonovaldoktor"
+                        android:drawableTop="@drawable/doctor"
+                        android:drawableTint="#3c6382"
+
+                        android:text="@string/doctor_button"
+                        android:textColor="#3c6382"
+                        android:layout_weight="1"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnlabsonuc"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+
+
+                        android:background="@drawable/butonovallabarotuvar"
+                        android:drawableTop="@drawable/laboratuvar"
+                        android:drawableTint="#3c6382"
+                        android:text="@string/lab_sonuc_button"
+                        android:textColor="#3c6382"
+                        android:textSize="12dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btntedavi"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+
+                        android:layout_weight="1"
+                        android:background="@drawable/butonovaltedavi"
+                        android:drawableTop="@drawable/tedavi"
+                        android:drawableTint="#3c6382"
+                        android:text="@string/tedavi_button"
+                        android:textColor="#3c6382"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnembrioresim"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+
+
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butonovalembrio"
+                        android:drawableTop="@drawable/embryo"
+                        android:drawableTint="#3c6382"
+
+
+                        android:text="@string/embrio_button"
+                        android:textColor="#3c6382"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnilaclar"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+
+
+                        android:layout_weight="1"
+                        android:background="@drawable/butonovalilaclar"
+                        android:drawableTop="@drawable/ilac"
+                        android:drawableTint="#3c6382"
+                        android:text="@string/ilac_button"
+                        android:textColor="#3c6382"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btniletisims"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butonovalilaclar"
+
+                       android:drawableTop="@drawable/contactss"
+                        android:drawableTint="#3c6382"
+
+
+                        android:text="@string/contac_btn"
+                        android:textColor="#3c6382"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+</FrameLayout>

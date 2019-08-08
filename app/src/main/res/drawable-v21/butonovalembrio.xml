@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When item pressed this item will be triggered -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:radius="60dp"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp" />
+
+
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+
+            <size
+                android:height="160dp"
+                android:width="140dp" />
+
+            <solid android:color="#aaa69d" />
+        </shape>
+    </item>
+
+    <!-- By default the background will be this item -->
+    <item>
+        <shape android:shape="rectangle" >
+            <corners
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:radius="60dp"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp" />
+
+            <gradient android:endColor="#d1ccc0" android:startColor="#d1ccc0"></gradient>
+
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+
+            <size
+                android:height="160dp"
+                android:width="140dp" />
+
+
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,73 @@
+<resources>
+
+
+    <string name="app_name">AntalyaIVF</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Kimlik No</string>
+    <string name="prompt_password">Şifre</string>
+    <string name="prompt_email">Hoş Geldiniz</string>
+    <string name="action_sign_in">Giriş</string>
+    <string name="change">TR</string>
+    <!-- Strings related to home page -->
+    <string name="doctor_button">DOKTORA SORU\nSOR</string>
+    <string name="lab_sonuc_button">LABORATUVAR\nSONUÇLARI</string>
+    <string name="tedavi_button">TEDAVİLERİM</string>
+    <string name="embrio_button">EMBRİYO RESİMLERİM</string>
+    <string name="ilac_button">İLAÇLAR</string>
+    <string name="contac_btn">İLETİŞİM</string>
+    <!-- Strings related to doctor page -->
+    <string name="doktor_choose">Doktor Seç</string>
+    <string name="btn_message">Mesaj Gönder</string>
+    <string name="btn_answers">Cevaplar</string>
+    <string name="cevap_tarih">TARİH</string>
+    <string name="cevap_sonuc">CEVAP</string>
+    <!-- lab sonuc -->
+    <string name="lab_tarih">TARİH</string>
+    <string name="lab_test">TAHLİL</string>
+    <string name="lab_sonuc">SONUÇ</string>
+    <!-- TEDAVİ -->
+    <string name="tedavi_tarih">TARİH</string>
+    <string name="tedavi_islem">İŞLEM</string>
+    <!-- ilac  -->
+    <string name="today_ilac">Bugün kullanılacak ilaçlar</string>
+
+    <!-- nav bar -->
+    <string name="nav_anasayfa">ANASAYFA</string>
+    <string name="nav_cikis">ÇIKIŞ</string>
+    <string name="nav_hosgeldiniz">Hoş Geldiniz</string>
+
+
+
+    <string name="error_invalid_password">Şifrenizi eksik girdiniz ?</string>
+    <string name="error_incorrect_password">Şifreniz doğru değil ?</string>
+    <string name="error_field_required">Bu alan gereklidir ?</string>
+    <string name="error_field_requireds">Bu alan gereklidir ?</string>
+    <string name="error_invalid_username">Bu kimlik numarası geçersiz ?</string>
+
+
+    <string name="wait">Lütfen Bekleyiniz..</string>
+
+    <string name="controllogin">Bilgilerinizi Kontrol Ediniz..</string>
+    <string name="smsbosvalue">Lütfen boş deger girmeyiniz</string>
+    <string name="smssend">Mesajınız Gönderildi</string>
+
+    <string name="messagewait">Cevap Bekleniyor</string>
+
+
+    <string name="yes">EVET</string>
+    <string name="no">HAYIR</string>
+    <string name="cikisevethayir">Çıkmak istediğinizden emin misiniz ?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

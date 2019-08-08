@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/navview"
+    tools:context=".doktorfragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/doktor_choose"
+            android:textStyle="bold"
+            android:textColor="#C444" />
+
+        <Spinner
+
+            android:id="@+id/cbmspinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#C444"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:padding="2dp">
+
+        </Spinner>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="3dp">
+
+            <EditText
+                android:id="@+id/txtmesaj"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/mesajtext"
+
+                android:textColor="#2C3A47" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnmesajgonder"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/butonovaltedavi"
+            android:text="@string/btn_message"
+            android:textColor="#2C3A47" />
+
+        <Button
+            android:id="@+id/btncevap"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/butonovaltedavi"
+            android:text="@string/btn_answers"
+            android:textColor="#2C3A47" />
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

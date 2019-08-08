@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cevap_fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:background="@drawable/navview"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/pullToRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/navview">
+
+            <ListView
+                android:id="@+id/listviewcevap"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"></ListView>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</FrameLayout>

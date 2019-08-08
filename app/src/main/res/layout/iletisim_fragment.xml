@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/navview"
+    tools:context=".iletisim_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+
+        android:layout_marginTop="5dp"
+        android:background="#d1ccc0"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#d1ccc0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="80dp"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:drawableLeft="@drawable/iletisim"
+                android:drawablePadding="10dp"
+                android:drawableTint="#e55039"
+                android:text="+90 (242) 345 47 00"
+                android:textColorLink="#485460"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/emaillink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:layout_weight="1"
+                android:autoLink="email"
+                android:clickable="true"
+                android:drawableLeft="@drawable/emailresim"
+                android:drawablePadding="10dp"
+                android:drawableTint="#079992"
+                android:text="info@antalyaivf.com"
+                android:textColorLink="#485460"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/iletisimwhatsapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawableLeft="@drawable/whatsap"
+                android:text="+90 0539 586 67 31"
+                android:drawablePadding="10dp"
+                android:textColorLink="#485460"
+                android:textSize="20dp"
+                android:textColor="#485460"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="app_name">AntalyaIVF</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- start -->
+    <string name="prompt_username" >identification number</string>
+    <string name="prompt_password" >Password</string>
+    <string name="prompt_email" >Welcome</string>
+    <string name="action_sign_in" >Log in</string>
+    <string name="change">EN</string>
+    <!-- ceviri -->
+    <string name="doctor_button">Ask doctor\na question</string>
+    <string name="lab_sonuc_button">Laboratory\nresults</string>
+    <string name="tedavi_button">Therapies</string>
+    <string name="embrio_button">Embryo pictures</string>
+    <string name="ilac_button">Medication</string>
+    <string name="contac_btn">contact</string>
+    <!-- Strings related to doctor page -->
+    <string name="doktor_choose">Choose a Doctor</string>
+    <string name="btn_message">Send Message</string>
+    <string name="btn_answers">Answers</string>
+    <string name="cevap_tarih">DATE</string>
+    <string name="cevap_sonuc">ANSWER</string>
+    <!-- LAB SONUC -->
+    <string name="lab_tarih">DATE</string>
+    <string name="lab_test">TEST</string>
+    <string name="lab_sonuc">RESULT</string>
+    <!-- TEDAVİ -->
+    <string name="tedavi_tarih">DATE</string>
+    <string name="tedavi_islem">OPERATİON</string>
+    <string name="today_ilac">Drugs to be used today</string>
+    <!-- nav bar -->
+    <string name="nav_anasayfa">HOME</string>
+    <string name="nav_cikis">LOG OUT</string>
+    <string name="nav_hosgeldiniz">Welcome</string>
+    <!-- end -->
+
+
+    <string name="error_invalid_password">Error invalid password ?</string>
+    <string name="error_incorrect_password">Error incorrect password ?</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_field_requireds">This field is required</string>
+    <string name="error_invalid_username">This identification number is invalid</string>
+
+    <string name="wait">Please wait..</string>
+
+    <string name="controllogin">Check Your Information..</string>
+    <string name="smsbosvalue">Please,Do not enter an empty value</string>
+    <string name="smssend">Sent Message</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="cikisevethayir">Are you sure you want to leave the application ?</string>
+
+
+
+</resources>
